@@ -1,0 +1,25 @@
+#vdrift object list file format v0.5
+
+#how many parameters per entry
+16
+
+#format is:
+#0. model filename (no spaces allowed)
+#1. texture filename (no spaces allowed)
+#2. mipmap texture (1 for true, 0 for false)
+#3. disable lighting (1 for true, 0 for false)
+#4. is this a skybox? (1 for true, 0 for false)
+#5. transparent blended texture? (1 if true)
+    double sided texture (2 if true)
+    0 otherwise
+#6. bump wavelength
+#7. bump amplitude
+#8. driveable (1 for true, 0 for false) -> deprecated, use collide-able flag
+#9. collide-able (1 for true, 0 for false)
+#10. friction coefficient for non-treaded tires
+#11. friction coefficient for treaded tires
+#12. rolling resistance coefficient (http://en.wikipedia.org/wiki/Rolling_friction)
+#13. rolling drag
+#14. whether or not the object is (literally) a shadow; these objects will not be drawn if dynamic shadows are turned on
+#15. whether or not the texture should be clamped to its borders instead of allowed to repeat.  set this true if you notice line artifacts at the edges of billboard type objects.  if 0, don't clamp (repeat), if 1 clamp in the U and V directions, if 2 clamp U only, if 3 clamp V only.
+#16. the road surface type: 1=asphalt, 2=grass

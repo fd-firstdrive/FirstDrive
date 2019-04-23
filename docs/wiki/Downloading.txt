@@ -1,0 +1,11 @@
+Before you download FirstDrive, make sure your computer meets the [[Requirements|requirements]].
+
+==Downloads==
+Links to the latest release are on the [http://vdrift.net homepage]. Downloads are hosted on [http://sourceforge.net/projects/vdrift/ Sourceforge]. You should download the latest release for your operating system.
+
+If a package is not available for your operating system, you can try downloading the source release and then [[Compiling|compiling]] FirstDrive yourself.
+
+==Version Numbering==
+FirstDrive is versioned according to the date of the release, in the format ''yyyy-mm-dd'', so the latest release is the one with a version number closest to the current date.
+
+[[Category:Installation]]

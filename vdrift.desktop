@@ -1,0 +1,11 @@
+﻿[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=FirstDrive
+Version=2012-07-22
+GenericName=Racing Simulation
+Comment=An open source driving simulation made with learning to drive in mind
+Exec=vdrift
+Icon=vdrift.png
+Terminal=false
+Categories=Game;Simulation;

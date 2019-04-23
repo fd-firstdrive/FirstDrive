@@ -1,0 +1,67 @@
+A small selection of tracks are distributed in the release FirstDrive packages. This page describes how to get some more. 
+
+==List of tracks==
+The following cars are in the [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data data repository] of FirstDrive.
+
+<div style="column-count:3;-moz-column-count:3;-webkit-column-count:3">
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/a1ring/ A1 Ring]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/bahrain/ Bahrain]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/barcelona/ Barcelona]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/brands/ Brands Hatch]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/charade70/ Charade 1970]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/detroit/ Detroit]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/dijon/ Dijon-Prenois]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/dirt-3/ Australian Countryside]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/estoril88/ Estoril 1988]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/fuji/ Fuji]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/hockenheim/ Hockenheim]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/hungaroring06/ Hungaroring 2006]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/imola2005/ Imola 2005]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/indianhill/ Indian Hill]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/interlagos/ Interlagos]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/jarama/ Jarama]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/jerez88/ Jerez 1988]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/kyalami/ Kyalami]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/laconca/ La Conca]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/lagunaseca/ Laguna Seca]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/lemans/ Le Mans]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/magny/ Magny]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/melbourne/ Melbourne]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/monaco/ Monaco]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/monaco88/ Monaco 1988]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/montreal/ Montreal]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/monza/ Monza]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/monza88/ Monza 1988]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/mosport/ Mosport]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/nuerburgring_nordschleife/ Nürburgring Nordschleife]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/parkinglot/ Parking Lot]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/parkinglot/ Pau]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/paulricard88/ Paul Ricard 1988]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/ring2007/ Nürburgring Nordschleife 2007]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/road_atlanta/ Road Atlanta]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/rouen/ Rouen]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/ruudskogen/ Ruudskogen]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/sepang/ Sepang]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/singapore/ Singapore]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/spa/ Spa-Francorchamps]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/spa2008/ Spa-Francorchamps 2008]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/suzuka2005/ Suzuka 2005]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/vir/ Virgina International]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/wackersdorf/ Wackersdorf]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/weekend/ Weekend Drive]
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/tracks/zandvoort/ Zandvoort]
+</div>
+
+==Downloading==
+Click the links in the list above then click the "Download GNU Tarball" link near the bottom of the page.
+
+==Installing==
+Uncompress the .tar.gz file. This should create a folder with the name of the track containing files like '''about.txt''' and '''roads.trk'''. Move that folder to '''vdrift/data/tracks''' folder. Run FirstDrive and your new track will be ready for racing!
+
+==Updating==
+You can update tracks from within FirstDrive itself. Go to Updates -> Check for updates. If any are available go Back -> Manage Tracks, select the track to update and click "Download".
+
+==See also==
+* [[Getting cars]]
+
+[[Category:Tracks]]

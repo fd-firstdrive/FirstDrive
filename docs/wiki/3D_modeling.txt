@@ -1,0 +1,17 @@
+==Blender==
+[http://blender.org/ Blender] is the best 3D modeling application to use for creating cars, tracks, and related 3D game art for FirstDrive. 
+
+===General Use===
+* [http://wiki.blender.org/ Blender Wiki] - All the official Blender documentation, including the [http://wiki.blender.org/index.php/Doc:Manual User's Manual].
+* [http://blenderunderground.com/video-tutorials/ BlenderUnderground Blender Video Tutorials] - The Blender Basics series seeks to provide a way for those new to Blender, or those new to 3D graphics in general, to begin to master this powerful and capable application.
+* [http://www.blenderart.org/issues/ BlenderArt Magazine] - A magazine dedicated to Blender.
+
+===Modeling Cars===
+* [http://www.blendernation.com/2006/04/15/tutorial-modeling-a-toyota-celica/ BlenderNation Tutorial: Modeling a Toyota Celica] - If you want to learn how to model a car from reference pictures, then check out this tutorial. It covers techniques such as loading bitmaps in the 3D viewports, tracing them, mesh extrusion, normal correction and using subdivision surfaces. Aimed at intermediate level Blender users.
+* [http://issuu.com/blenderart_magazine/docs/blenderart_mag-8_eng BlenderArt Magazine, Issue 8: Car Modeling] - An entire magazine issue about modeling cars. 
+
+===Modeling Tracks===
+* [http://supertuxkart.sourceforge.net/Blender_track_modelling_tutorial Super TuxKart Track Modeling Tutorial] - A little guide on how to build tracks with Blender and how to avoid common pitfalls. Some basic Blender knowledge is assumed.
+
+[[Category:Cars]]
+[[Category:Tracks]]

@@ -1,0 +1,31 @@
+FirstDrive stores user settings (mostly in [[FirstDrive.config]]) and other information in a special directory on the computer's drive. Usually it is located within the user's personal assigned file space, to ensure that the user will have easy access to the files (for backup or other purposes), and that FirstDrive will be allowed write privileges to the directory.
+
+==Location==
+The location of the settings directory is chosen based on the best location for the user's operating system. In the following subsections, ''username'' represents the user's login name on the computer.
+
+{|
+|-
+|'''Operating System'''
+|'''Location'''
+|-
+|Windows XP
+|<code>C:\Documents and Settings\''username''\My Documents\My Games\FirstDrive</code>
+|-
+|Windows Vista/7
+|<code>C:\Users\''username''\My Documents\My Games\FirstDrive</code>
+|-
+|OS X
+|<code>/Users/''username''/Library/Preferences/FirstDrive</code>
+|-
+|Linux
+|<code>/home/''username''/.vdrift</code>
+|-
+|FreeBSD
+|<code>/home/''username''/.vdrift</code>
+|}
+
+{{note|If FirstDrive is run as root on Linux/FreeBSD, the root user's home directory is used instead, which is usually '''/root'''. It is not recommended that FirstDrive is run as root.}}
+
+{{note|If FirstDrive is run as Administrator on Windows XP, the path will be '''C:\Documents and Settings\Administrator\My Documents\My Games\FirstDrive'''. It is not recommended that FirstDrive is run as Administrator.}}
+
+[[Category:Files]]

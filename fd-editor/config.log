@@ -1,0 +1,63 @@
+file /home/mike/FirstDrive/fd-editor/SConstruct,line 109:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for C++ header file GL/gl.h... 
+scons: Configure: ".sconf_temp/conftest_0.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_0.cpp <-
+  |  |
+  |  |#include "GL/gl.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_0.o -c -Wall -Wno-non-virtual-dtor -Iinclude .sconf_temp/conftest_0.cpp
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C++ header file GL/glu.h... 
+scons: Configure: ".sconf_temp/conftest_1.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_1.cpp <-
+  |  |
+  |  |#include "GL/glu.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_1.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_1.o -c -Wall -Wno-non-virtual-dtor -Iinclude .sconf_temp/conftest_1.cpp
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C++ header file SDL/SDL.h... 
+scons: Configure: ".sconf_temp/conftest_2.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_2.cpp <-
+  |  |
+  |  |#include "SDL/SDL.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_2.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_2.o -c -Wall -Wno-non-virtual-dtor -Iinclude .sconf_temp/conftest_2.cpp
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C++ header file SDL/SDL_image.h... 
+scons: Configure: ".sconf_temp/conftest_3.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_3.cpp <-
+  |  |
+  |  |#include "SDL/SDL_image.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_3.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_3.o -c -Wall -Wno-non-virtual-dtor -Iinclude .sconf_temp/conftest_3.cpp
+  |
+scons: Configure: (cached) yes
+
+

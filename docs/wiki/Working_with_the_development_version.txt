@@ -1,0 +1,46 @@
+This page describes some of the most common commands used when working with FirstDrive's source code. It assumes you have followed the instructions in the [[Getting the development version#Cloning/Checking out|Cloning/Checking out]] section of [[Getting the development version]].
+
+See this documentation for more up to date and complete information: http://help.github.com/
+
+==Updating==
+===Git===
+To update the Git repositories, execute the following command in the root folder of the repository (i.e. '''vdrift''', '''vdrift/vdrift-win''' or '''vdrift/vdrift-mac'''):
+ git pull git://github.com/FirstDrive/vdrift.git
+
+===Subversion===
+To update the data, run the following command while in '''vdrift/data'''
+ svn update
+
+==Making your own changes==
+===Git===
+These instructions also apply for the dependencies - just change the file paths and URLs. 
+====Forking====
+If you want to make your own changes to improve FirstDrive, the easiest way is to fork the main FirstDrive repository on [https://github.com/FirstDrive/vdrift/ GitHub]. Just click the button near the top right of the page. You will need a free [http://github.com GitHub] account. Then clone your new repo onto your computer:
+ git clone git@github.com:''username''/vdrift.git
+And link this to the original FirstDrive repo:
+ cd vdrift
+ git remote add upstream git://github.com/FirstDrive/vdrift.git
+ git fetch upstream
+
+====Uploading changes====
+To upload any changes you've made, first add the files to the commit:
+ git add ''filename''
+Then do the commit:
+ git commit -m 'Commit message'
+And finally send this to GitHub:
+ git push origin master
+
+====Checking in changes====
+You can request a FirstDrive developer to incorporate your changes by initiating a GitHub pull request. See this documentation for more info: http://help.github.com/send-pull-requests/
+
+===Subversion===
+You will need to ask a FirstDrive developer in the [http://vdrift.net/Forum/index.php forums] for Subversion access in order to commit to the repository. You will need a free [http://sourceforge.net Sourceforge] account. You can then add any new files or folders you've created:
+ svn add ''filename''
+And then commit the changes:
+ svn commit -m "Commit message"
+If you don't want to do this, you can create a diff which you can post in the [http://vdrift.net/Forum/index.php forums]:
+ svn diff
+
+====Thank you for helping make FirstDrive better for everyone!====
+
+[[Category:Development]]

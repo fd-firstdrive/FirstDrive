@@ -1,0 +1,10 @@
+==Textures==
+Textures are all in [http://www.libpng.org/pub/png/ Portable Network Graphic (PNG)] format. Graphics can be 24 or 32 bit color, but if you don't need the Alpha channel leave it out. We prefer to produce these graphics using [http://gimp.org/ The GIMP], and many of the originals in the [[Art repository]] are in GIMP's native format (XCF). Other originals are created in [http://inkscape.org/ Inkscape] using its native [http://www.w3.org/TR/SVG/ Scalable Vector Graphics (SVG)] format.
+
+==Models==
+Models used in the game are all [[JOE format]], which is produced by a Python script for [http://www.blender3d.org/ Blender3D]. Currently models are used for cars (glass, interiors, wheels, etc.) and track objects. Get the modeling tools from the '''tools''' directory of the [[Art repository]]. There are two [[JOE export scripts]], '''export-joe-0.3.py''' and '''export-all-joe-0.3.py'''.
+
+==Sounds==
+Sounds are in PCM Waveform (WAV) format which can be editing using any waveform audio editor such as [http://audacity.sourceforge.net/ Audacity].
+
+[[Category:Files]]

@@ -1,0 +1,31 @@
+The FirstDrive community is an always expanding world of open source game developers, gamers on all platforms, artists and designers, and car tuners. It is based totally on the internet. The following links might be useful for users and developers of FirstDrive.
+
+==FirstDrive==
+FirstDrive has several web sites devoted to the project and development. They are:
+* [http://vdrift.net/ Home] - The main project web site, includes news and forums, and general project information.
+* [http://cars.vdrift.net/ Cars] - FirstDrive cars database.
+* [http://vdrift.net/Forum/ Forum] - Discuss new features and development, report bugs and get help with problems in the forums.
+* [http://sourceforge.net/projects/vdrift SourceForge] - FirstDrive downloads are hosted on SourceForge, as well as the data repository.
+* [https://github.com/FirstDrive/vdrift GitHub] - This includes a public browser for the main FirstDrive Git tree, as well as HTTP access to the tree itself.
+* [http://wiki.vdrift.net/ Wiki] - The FirstDrive Wiki is the home of all the project's documentation.
+* [http://code.google.com/p/vdrift/issues/list Issue Tracker] - Tracks the fixing of bugs and implementing of new features.
+* [http://vdrift.net/staticpages/index.php?page=irc-chat Chat] - IRC channel used both for developer discussion and user support. If you have a problem or question feel free to stop by and ask.
+
+==Driving Simulation Information==
+These are some links to general driving simulation information and communities:
+* Wikipedia: [http://en.wikipedia.org/wiki/Sim_racing Sim racing], [http://en.wikipedia.org/wiki/Racing_video_game Racing video game] - General information about simulated racing games.
+* [http://www.miata.net/sport/Physics/ Physics of Racing] - A series of articles about the physics of racing cars.
+* [http://www.cescg.org/CESCG-2003/SDeak/index.html Dynamical Simulation in a Driving Simulator] -  A paper that addresses some important aspects of building a graphical model and a dynamical model for a driving simulator.
+* [http://www.racesimcentral.com/ Race Sim Central] - Racing simulation news and forums.
+* [http://www.racedepartment.com/content/ RaceDepartment] - Racing simulation community.
+
+==Open Source Driving Simulators and Racing Games==
+Some more driving simulators:
+* [http://torcs.org/ The Open Race Car Simulator (TORCS)] - A car racing simulation focusing on AI racing and research. It can also be used as a ordinary car racing game too.
+* [http://sourceforge.net/projects/trigger-rally/ Trigger Rally] - A fast-paced open source rally racing game.
+* [http://vamos.sourceforge.net/ Vamos Automotive Simulator] - A automotive simulation framework with an emphasis on thorough physical modeling and good C++ design. It includes a real-time, first-person, 3D driving application.
+* [http://speed-dreams.sourceforge.net/ Speed Dreams] - A fork of the TORCS, aiming to implement exciting new features, cars, tracks and AI opponents to make a more enjoyable game for the player, as well as constantly improving visual and physics realism.
+* [http://supertuxkart.sourceforge.net/ Super TuxCart] - A free 3D kart racing game
+* [http://code.google.com/p/vdrift-ogre/ Stunt Rally] - A racing game that focuses on closed rally tracks with possible stunt elements (jumps, loops, pipes). It uses FirstDrive for car simulation.
+
+[[Category:General]]

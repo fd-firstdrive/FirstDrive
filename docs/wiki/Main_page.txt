@@ -1,0 +1,65 @@
+
+='''FirstDrive Wiki'''=
+
+Welcome to the [[Project:About|FirstDrive Wiki]].
+
+'''[[:Category:General|General]]'''
+*[[About the project]]
+*[[Authors and contributors]]
+*[[License]]
+*[[Reporting problems]]
+*[[Useful links]]
+'''[[:Category:Installation|Installation]]'''
+*[[Requirements]]
+*[[Downloading]]
+*[[Installing]]
+
+
+'''[[:Category:Configuration|Configuration]]'''
+*[[Configuring the display]]
+*[[Configuring the sound]]
+*[[Configuring the controls]]
+*[[Logitech G25 support]]
+*[[Setting up force feedback]]
+'''[[:Category:Playing|Playing]]'''
+*[[Replays]]
+*[[Drifting techniques]]
+*[[Drift scoring]]
+
+
+'''[[:Category:Files|Files]]'''
+*[[User settings directory]]
+*[[Data directory]]
+*[[FirstDrive.config]]
+*[[Adding video modes]]
+*[[options.config]]
+*[[Sound and graphics formats]]
+*[[JOE format]]
+*[[JOEPack format]]
+*[[Configfile format]]
+*[[Menu system|Menu file format]]
+'''[[:Category:Development|Development]]'''
+*[[Getting the development version]]
+*[[Working with the development version]]
+*[[Compiling]]
+*[[Packaging]]
+*[[Testing]]
+*[[Debugging]]
+*[[Coding guidelines]]
+*[[Source code documentation]]
+*[[Numerical Integration]]
+
+
+'''[[:Category:Cars|Cars]]'''
+*[[Getting cars]]
+*[[Car files and formats]]
+*[[Creating cars]]
+*[[Car parameters]]
+*[[Car graphics]]
+*[[Car sounds]]
+*[[3D modeling]]
+'''[[:Category:Tracks|Tracks]]'''
+*[[Getting tracks]]
+*[[Track files and formats]]
+*[[Creating tracks]]
+*[[Importing Racer tracks]]

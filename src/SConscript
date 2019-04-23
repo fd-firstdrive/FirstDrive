@@ -1,0 +1,267 @@
+import os, sys
+
+#-------------#
+# Import Vars #
+#-------------#
+Import('*')
+
+#----------------#
+# Subdirectories #
+#----------------#
+def addbulletpath( val ):
+    return "#bullet/"+val
+
+#---------#
+# Sources #
+# 		ai/ai_car_experimental.cpp
+#---------#
+src = Split("""
+		aabb.cpp
+		aabbtree.cpp
+		ai/ai_car_standard.cpp
+		ai/ai.cpp
+		autoupdate.cpp
+		bezier.cpp
+		camera_chase.cpp
+		camera_free.cpp
+		camera_mount.cpp
+		camera_orbit.cpp
+		carcontrolmap.cpp
+		cargraphics.cpp
+		carsound.cpp
+		cfg/config.cpp
+		cfg/ptree.cpp
+		cfg/ptree_inf.cpp
+		cfg/ptree_ini.cpp
+		cfg/ptree_xml.cpp
+		containeralgorithm.cpp
+		content/configfactory.cpp
+		content/contentmanager.cpp
+		content/modelfactory.cpp
+		content/soundfactory.cpp
+		content/texturefactory.cpp
+		crashdetection.cpp
+		downloadable.cpp
+		dynamicsdraw.cpp
+		eventsystem.cpp
+		forcefeedback.cpp
+		game.cpp
+		graphics/dds.cpp
+		graphics/drawable.cpp
+		graphics/fbobject.cpp
+		graphics/fbtexture.cpp
+		graphics/gl3v/glenums.cpp
+		graphics/gl3v/glwrapper.cpp
+		graphics/gl3v/renderdimensions.cpp
+		graphics/gl3v/renderer.cpp
+		graphics/gl3v/rendermodel.cpp
+		graphics/gl3v/rendermodelext.cpp
+		graphics/gl3v/renderpass.cpp
+		graphics/gl3v/rendersampler.cpp
+		graphics/gl3v/renderstate.cpp
+		graphics/gl3v/rendertextureentry.cpp
+		graphics/gl3v/renderuniform.cpp
+		graphics/gl3v/renderuniformentry.cpp
+		graphics/gl3v/stringidmap.cpp
+		graphics/glcore.cpp
+		graphics/glutil.cpp
+		graphics/graphics_config_condition.cpp
+		graphics/graphics_config.cpp
+		graphics/graphics_gl2.cpp
+		graphics/graphics_gl3v.cpp
+		graphics/mesh_gen.cpp
+		graphics/model.cpp
+		graphics/model_joe03.cpp
+		graphics/model_obj.cpp
+		graphics/render_input_postprocess.cpp
+		graphics/render_input_scene.cpp
+		graphics/render_output.cpp
+		graphics/scenenode.cpp
+		graphics/shader.cpp
+		graphics/sky.cpp
+		graphics/texture.cpp
+		graphics/vertexarray.cpp
+		graphics/vertexbuffer.cpp
+		graphics/vertexformat.cpp
+		gui/font.cpp
+		gui/guicontrol.cpp
+		gui/guicontrollist.cpp
+		gui/gui.cpp
+		gui/guiimage.cpp
+		gui/guiimagelist.cpp
+		gui/guilabel.cpp
+		gui/guilabellist.cpp
+		gui/guilanguage.cpp
+		gui/guioption.cpp
+		gui/guipage.cpp
+		gui/guiradialslider.cpp
+		gui/guislider.cpp
+		gui/guiwidget.cpp
+		gui/guiwidgetlist.cpp
+		gui/text_draw.cpp
+		http.cpp
+		joepack.cpp
+		joeserialize.cpp
+		k1999.cpp
+		keyed_container.cpp
+		linearinterp.cpp
+		loadcamera.cpp
+		loadcollisionshape.cpp
+		loaddrawable.cpp
+		main.cpp
+		mathplane.cpp
+		mathvector.cpp
+		matrix4.cpp
+		optional.cpp
+		parallel_task.cpp
+		particle.cpp
+		pathmanager.cpp
+		performance_testing.cpp
+		physics/cardifferential.cpp
+		physics/cardynamics.cpp
+		physics/carengine.cpp
+		physics/carsuspension.cpp
+		physics/cartire.cpp
+		physics/dynamicsworld.cpp
+		physics/fracturebody.cpp
+		physics/tire.cpp
+		quaternion.cpp
+		radix.cpp
+		random.cpp
+		replay.cpp
+		reseatable_reference.cpp
+		roadpatch.cpp
+		roadstrip.cpp
+		settings.cpp
+		sound/soundbuffer.cpp
+		sound/sound.cpp
+		sound/soundfilter.cpp
+		sprite2d.cpp
+		suspensionbumpdetection.cpp
+		svn_sourceforge.cpp
+		timer.cpp
+		toggle.cpp
+		track.cpp
+		trackloader.cpp
+		trackmap.cpp
+		updatemanager.cpp
+		utils.cpp
+		window.cpp""")
+		#rules.cpp
+
+src.sort(lambda x, y: cmp(x.lower(),y.lower()))
+
+#------------------------#
+# Copy Build Environment #
+#------------------------#
+local_env = env.Clone()
+SConsignFile()
+
+#--------------------------#
+# Modify Build Environment #
+#--------------------------#
+appdir = ""
+vdrift_install = None
+common_libs = ['SDL2_image', 'vorbisfile', 'curl']
+
+if sys.platform in ['freebsd6', 'freebsd7', 'freebsd8', 'freebsd9']:
+    common_libs.append('libLinearMath')
+    common_libs.append('libBulletCollision')
+    local_env.ParseConfig('sdl2-config --cflags --libs')
+    local_env.Append(LIBPATH = ['/usr/X11R6/lib'])
+    libs_link = ['pthread', common_libs]
+elif ( 'darwin' == sys.platform ):
+    common_libs = ['SDL2_image', 'Vorbis', 'libcurl']
+    vdrift_install = "${PRODUCT_NAME}.app"
+    pkgbase = "%s/Contents" % vdrift_install
+    appdir = "%s/MacOS/" % pkgbase
+    pkgsrc = "../tools/osx"
+
+    common_libs.append( 'SDL2' )
+    def batch_copy( target, source, env): 
+        # Do a mini svn export... this funtion could possibly
+        # be useful in general ( as a builder ), but I don't 
+        # want to think about getting it cross-platform... 
+        # win32 could use xcopy... but there are so many different
+        # versions of the tools below in circulation that 
+        # testing would be difficult
+        for tgt, src in zip( target, source ):
+            src = str(src)
+            tgt = str(tgt)
+            env.Execute( ( "mkdir -p '%s';" +
+                "tar -cf - -C '%s' . --exclude \\*/.svn\\* |" +
+                "tar -xf - -C '%s'" )  % ( tgt, src, tgt ) )
+
+    def build_list( template, items ):
+        return [ template % x for x in items ]
+
+    Alias( 'vdrift', [
+        local_env.ProcessTemplate( 
+            '%s/Info.plist' % pkgbase, 
+            '%s/Info.plist' % pkgsrc ),
+        local_env.Command( 
+            '%s/Resources/${PRODUCT_NAME}.icns' % pkgbase, 
+            '%s/vdrift.icns' % pkgsrc,
+            Copy( '$TARGET', '$SOURCE') ),
+        [ local_env.WorkingExport( '%s/Frameworks' % pkgbase, s ) for s in
+            build_list( '%s/Frameworks/%%s.framework' % pkgsrc, common_libs ) ] ] ) 
+        #local_env.Command(
+        #    build_list( '%s/Frameworks/%%s.framework' % pkgbase, common_libs  ),
+        #    build_list( '%s/%%s.framework' % pkgsrc, common_libs ),
+        #    batch_copy )  ] )
+    libs_link = ['objc']
+    local_env.Append( FRAMEWORKS = [ common_libs, 'Foundation', 'AppKit'] )
+    src.append(['../tools/osx/SDL2Main.m', '../tools/osx/config_mac.mm'])
+elif sys.platform in ['win32', 'msys', 'cygwin']:
+    #local_env.Append(LIBPATH = ['/usr/lib/mingw', '#tools/win/lib', '#build'])
+    libs_link = ['opengl32', 'mingw32', 'SDL2main', 'SDL2', 'intl', common_libs ]
+else:
+    local_env.ParseConfig('sdl2-config --cflags --libs')
+    #local_env.Append(LIBPATH = ['/usr/X11R6/lib'])
+    libs_link = ['GL','pthread', common_libs]
+
+local_env.Append(LIBS = libs_link)
+
+#-----------------------#
+# Distribute to src_dir #
+#-----------------------#
+dist_files = ['SConscript'] + src
+env.Distribute (src_dir, dist_files)
+
+#--------------------#
+# Compile Executable #
+#--------------------#
+vdrift = local_env.Program(target='%s${EXECUTABLE_NAME}' % appdir, source=src)
+Default(Alias('vdrift', vdrift))
+
+#---------#
+# Install #
+#---------#
+if not vdrift_install: vdrift_install = vdrift
+install = env.Install(Dir(env.subst("$destdir$prefix/$bindir")), vdrift_install)
+env.Alias("install", install)
+
+#---------------#
+# Python Export #
+#---------------#
+
+if not sys.platform in ['win32', 'msys', 'cygwin']:
+    #for now this seems to break windows build so disabling for win
+    wrapper_build_env = local_env.Clone()
+
+    pybase = 'python%s' % sys.version[0:3]
+    wrapper_build_env.Append(CPPPATH=[os.path.join(sys.prefix, 'include', pybase)],
+                             LIBPATH=[os.path.join(sys.prefix, 'lib', pybase, 'config')],
+                             LIBS=['lib%s' % pybase])
+
+#    wrapper_build_env.Append(CPPDEFINES=['BOOST_PYTHON_STATIC_LIB', 'BOOST_PYTHON_STATIC_MODULE'],
+#                             CPPPATH=['#include','$boostIncludes'],  # boostIncludes is a PathOption
+#                             LIBS=['boost_python'])
+
+    wrapper_build_env.Replace(SHLIBPREFIX = '_')  # do not add 'lib' in front of the output file
+    wrapper_build_env.Append(SWIGFLAGS=['-c++', '-python'])
+#wrapper = wrapper_build_env.SharedLibrary('vdrift', [src, vamosobjs, guiobjs, "vdrift.i"])
+    wrapper = wrapper_build_env.SharedLibrary('vdrift', [src, "vdrift.i"])
+
+    env.Alias("wrapper", wrapper)
+

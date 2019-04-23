@@ -1,0 +1,70 @@
+<small>[[Getting cars|English]] - [[Getting cars/it|Italiano]]</small>
+
+A small selection of cars are distributed in the release FirstDrive packages. This page describes how to get some more.
+
+==List of cars==
+The following cars are in the [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data data repository] of FirstDrive. To see pictures of some of the cars visit the [http://cars.vdrift.net cars.vdrift.net] website.
+
+<div style="column-count:3;-moz-column-count:3;-webkit-column-count:3">
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/350Z/ 350Z]: Nissan 350Z
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/360/ 360]: Ferrari 360 Modena
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/3S/ 3S]: Mazda 3
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/ATT/ ATT]: Audi TT
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/AX2/ AX2]: Fictional Concept Car
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/C7/ C7]: Lotus Super Seven
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/CO/ CO]: AC Shelby Cobra
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/CS/ CS]: Porsche 911 Clubsport
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/CT/ CT]: Porsche Carrera Turbo
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/DCH/ DCH]: Dodge Challenger (1970)
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/DSN/ DSN]: Dacia Supernova
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/EF/ EF]: Ferrari Enzo
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/F1-02/ F1-02]: F1 car (2002)
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/F40/ F40]: Ferrari F40
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/FE/ FE]: Ford Escort MKII Rally
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/FF/ FF]: Formula Ford
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/G-P34/ G-P34]: Tyrrell P34
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/G4/ G4]: Ford GT40
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/GT/ GT]: Ford Mustang GT
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/GTR/ GTR]: Ford Mustang GT (non-drift version)
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/GTV6/ GTV6]: Alfa Romeo GTV6
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/KF1-91/ KF1-91]: KF1 1991
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/KF1K/ KF1K]: KF1
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/KF1T/ KF1T]: KF1
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/LE/ LE]: Lotus Elise
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/LGN/ LNG]: Dacia Logan
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/M3/ M3]: BMW E30 M3
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/M3D/ M3D]: BMW M3 SPEED World Challenge
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/M7/ M7]: Mazda RX-7 FC
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/M8/ M8]: Mazda RX-8
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/MC/ MC]: Mini Cooper (new style)
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/MI/ MI]: Mini Cooper (old style)
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/NS/ NS]: Nissan Skyline R32
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/RG/ RG]: Renault 12 Gordini
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/RS2/ RS2]: Subaru Imprezza RS 2.5
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/SB/ SB]: Sand buggy
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/SV/ SV]: Lamborghini Miura SV
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/T73/ T73]: Lotus 43
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/TC/ TC]: Toyota Celica ST185 Rally
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/TC6/ TC6]: Toyota Celica (6th generation)
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/TL/ TL]: Toyota Levin
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/TL2/ TL2]: Toyota Levin (model version 2)
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/TRA/ TRA]: Trabant 601
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/XG/ XG]: BMW 330cxi
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/XM/ XM]: BMW M3 SPEED World Challenge
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/XS/ XS]: Honda S2000
+* [http://vdrift.svn.sourceforge.net/viewvc/vdrift/vdrift-data/cars/Z06/ Z06]: Chevrolet C5 Corvette Z06
+</div>
+
+==Downloading==
+Click the links in the list above then click the "Download GNU Tarball" link near the bottom of the page.
+
+==Installing==
+Uncompress the .tar.gz file. This should create a folder with the short name of the car containing files like '''about.txt''' and '''body.joe'''. Move that folder to '''vdrift/data/cars''' folder. Run FirstDrive and your new car will be ready to drive!
+
+==Updating==
+You can update cars from within FirstDrive itself. Go to Updates -> Check for updates. If any are available go Back -> Manage Cars, select the car to update and click "Download".
+
+==See also==
+* [[Getting tracks]]
+
+[[Category:Cars]]

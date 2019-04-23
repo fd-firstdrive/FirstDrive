@@ -1,0 +1,108 @@
+file /home/mike/FirstDrive/SConstruct,line 363:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for C++ header file GL/gl.h... 
+scons: Configure: ".sconf_temp/conftest_0.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_0.cpp <-
+  |  |
+  |  |#include "GL/gl.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |	CPP .sconf_temp/conftest_0.o
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C++ header file SDL2/SDL.h... 
+scons: Configure: ".sconf_temp/conftest_1.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_1.cpp <-
+  |  |
+  |  |#include "SDL2/SDL.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_1.o" is up to date.
+scons: Configure: The original builder output was:
+  |	CPP .sconf_temp/conftest_1.o
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C++ header file SDL2/SDL_image.h... 
+scons: Configure: ".sconf_temp/conftest_2.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_2.cpp <-
+  |  |
+  |  |#include "SDL2/SDL_image.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_2.o" is up to date.
+scons: Configure: The original builder output was:
+  |	CPP .sconf_temp/conftest_2.o
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C++ header file vorbis/vorbisfile.h... 
+scons: Configure: ".sconf_temp/conftest_3.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_3.cpp <-
+  |  |
+  |  |#include "vorbis/vorbisfile.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_3.o" is up to date.
+scons: Configure: The original builder output was:
+  |	CPP .sconf_temp/conftest_3.o
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C++ header file curl/curl.h... 
+scons: Configure: ".sconf_temp/conftest_4.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_4.cpp <-
+  |  |
+  |  |#include "curl/curl.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_4.o" is up to date.
+scons: Configure: The original builder output was:
+  |	CPP .sconf_temp/conftest_4.o
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C++ header file bullet/btBulletCollisionCommon.h... 
+scons: Configure: ".sconf_temp/conftest_5.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_5.cpp <-
+  |  |
+  |  |#include "bullet/btBulletCollisionCommon.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_5.o" is up to date.
+scons: Configure: The original builder output was:
+  |	CPP .sconf_temp/conftest_5.o
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C++ header file bullet/btBulletDynamicsCommon.h... 
+scons: Configure: ".sconf_temp/conftest_6.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_6.cpp <-
+  |  |
+  |  |#include "bullet/btBulletDynamicsCommon.h"
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_6.o" is up to date.
+scons: Configure: The original builder output was:
+  |	CPP .sconf_temp/conftest_6.o
+  |
+scons: Configure: (cached) yes
+
+

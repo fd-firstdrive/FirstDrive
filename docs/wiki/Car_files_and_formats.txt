@@ -1,0 +1,20 @@
+{{note|Recent FirstDrive releases (2012) do not rely on a fixed set of geometry files(JOE) and textures(PNG/DDS). Instead car geometry/textures are set in the CARNAME.car file. See [[car parameters]] for details.}}
+
+Files within a car's folder:
+
+*CARNAME.car: [[Configfile_format]], list of [[car parameters]].
+*about.txt: text format, first line contains the car name, other lines contain additional info.
+*body.joe: [[JOE format]], car body geometry.
+*body00.png: PNG format, the body.joe UV texture.  Additional body textures and colors can be placed in the folder using names body01.png, body02.png, etc.
+*brake.png: PNG format, an additive texture using the body.joe UV texture containing brake lights.
+*collision.joe: [[JOE format]], collision box geometry.  Note that as of R2396, this file is no longer required.
+*engine.wav: WAVE format, engine sound at 7000 RPM.
+*glass.joe: [[JOE format]], geometry data for any glass elements from the car body (such as windows).
+*glass.png: PNG format, the glass.joe UV texture.  Texture transparency is supported.
+*interior.joe: [[JOE format]], geometry data for the car's interior.
+*interior.png: PNG format, the interior.joe UV texture.
+*oem_wheel.joe: [[JOE format]], geometry data to be used for the wheels.
+*oem_wheel.png: PNG format, the oem_wheel.joe UV texture.
+*reverse.png: PNG format, an additive texture using the body.joe UV texture containing reverse lights.
+
+[[Category:Cars]]
